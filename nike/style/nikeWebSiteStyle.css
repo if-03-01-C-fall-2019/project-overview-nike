@@ -1,0 +1,15 @@
+#backgroundpic{height:100%;width:100%}
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+#emblempic{
+position:absolute;
+top:50%;
+left:50%;
+margin-right:-50%;
+transform:translate(-50%,-50%)
+}
+h1{color:#37b6bf}
+#firstArticle{margin-left:20px}
