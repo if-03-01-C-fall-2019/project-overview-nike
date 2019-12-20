@@ -1,4 +1,4 @@
-#backgroundpic{height:100%;width:100%}
+#backgroundpic{height:100%;width:100%;display: block}
 body{
   margin:0;
   padding:0;
@@ -9,7 +9,27 @@ position:absolute;
 top:50%;
 left:50%;
 margin-right:-50%;
-transform:translate(-50%,-50%)
+transform:translate(-50%,-50%);
 }
-h1{color:#37b6bf}
+
+
 #firstArticle{margin-left:20px}
+
+button {
+   position: relative;
+   background-color: white;
+   border: none;
+   color:#37b6bf;
+   height: 500px;
+   text-align: center;
+
+
+   transition-duration: 0.4s;
+   text-decoration: none;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 10px 10px 10px 10px #CCC;
+}

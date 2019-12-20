@@ -4,50 +4,41 @@
     <meta charset="utf-8">
     <title>NIKE</title>
     <link rel = "stylesheet" href="style/nikeWebSiteStyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
     <article>
       <img src = "pic/photo1.jpg" id ="backgroundpic" alt="the brooklyn bridge">
       <img src ="pic/emblem.png" id ="emblempic" alt="Nike emblem">
+
     </article>
-    <article id="firstArticle">
-      <section>
-        <h1>General</h1>
-        <p>
-          General is for basic information about the brand/company NIKE. For example:
-        </p>
-        <ul>
-          <li>headquater</li>
-          <li>founding year</li>
-          <li>information about the CEO</li>
-        </ul>
-      </section>
-      <section>
-        <h1>Products</h1>
-        <p>
-          Products is for the information about the different typ of clothing by NIKE. Under this section you can also find reviews about this particular Item.
-        </p>
-        <ul>
-          <li>T-shirts</li>
-          <li>Pants</li>
-          <li>Shoes</li>
-          <li>Jackets</li>
-          <li>Accessories</li>
-          <li>Colaborations</li>
-        </ul>
-      </section>
-      <section>
-        <h1>Reviews</h1>
-        <p>Reviews ist goint to be the webablication where you can add a new review and all the reviews are displayed. You can also filter it by a sertant product.</p>
-      </section>
-      <section>
-        <h1>NIKE stores</h1>
-        <p>NIKE stores is to find the nearest NIKE shop in your area. It will display a map where all the NIKE stores by NIKE logo</p>
-      </section>
-      <section>
-        <h1>HALL OF FAME</h1>
-        <p>The HALL OF FAME section is for most expensive and most sold products.</p>
-      </section>
+    <br>
+    <article id = "firstArticle">
+      <div class="w3-row">
+        <div>
+          <button class="w3-third w3-container w3-center" type = "button" onclick = "window.location.href = 'pages/generalWebsite.html';">General</button>
+        </div>
+        <div>
+          <button class="w3-third w3-container w3-center" type = "button" onclick = "window.location.href = 'pages/mediaWebsite.html';">NIKE in the media</button>
+        </div>
+        <div>
+          <button class="w3-third w3-container w3-center" type = "button" onclick = "window.location.href = 'pages/productsWebsite.html';">Products</button>
+        </div>
+      </div>
+      <br>
+      <div class="w3-row">
+        <div>
+          <button class="w3-third w3-container w3-center" type = "button" onclick = "window.location.href = 'pages/reviewWebsite.html';">Reviews</button>
+        </div>
+        <div>
+            <button class="w3-third w3-container w3-center" type = "button" onclick = "window.location.href = 'pages/nikeStoreWebsite.html';">NIKE stores</button>
+        </div>
+        <div>
+          <button class="w3-third w3-container w3-center" type = "button" onclick = "window.location.href = 'pages/hallOfFameWebsite.html';">HALL OF FAME</button>
+        </div>
+      </div>
+
     </article>
+    <br>
   </body>
 </html>

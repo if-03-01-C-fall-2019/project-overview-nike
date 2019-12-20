@@ -1,0 +1,20 @@
+.backgroundpic{height:100%;width:100%}
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+.firstArticle{margin-left:20px}
+h1{
+  color:#37b6bf;
+  text-align:center;
+  font-size: 30px;
+}
+h2{
+  text-align: center;
+  font-size: 27px;
+}
+p{
+  text-align: center;
+  font-size: 19px;
+}
